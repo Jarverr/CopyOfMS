@@ -1,0 +1,24 @@
+git init - zainicuj gita
+touch .gitignore -ignore + wklej zawartosc ktora ma byc ignorwana
+git add . -dodanie do kolejki wszystkich plikow
+git commit -m " " -zatweirdzenie z kolejki plikow
+git remote add origin https://github.com/Jarverr/CopyOfMS.git -podanie lokalizacji do wysylania plikow
+git push -u origin master -wysyla na server pliczki zaakcpetowane
+
+
+.gitignore
+# file: ~/.gitignore_global
+
+.DS_Store
+
+.idea
+Ta zawrtosc gitgonroe powina zignorowac podane pliki
+----gitcior zrobiony
+
+npm init -inicjacja projektu (robi sie package.json)
+npm install gulp-sass --save-dev -instaluje sassa dla projektu
+npm install browser-sync gulp --save-dev  -instalacja jquery
+touch gulpfile.js -stworzyc gulpfile js i dac tam dane 
+npm install jquery -instalcja jquery
+jquery.min.js - z foleru jquery dist kopiuje ten plik do folderu z jsem
+
