@@ -1,2 +1,22 @@
 * {
   border: 1px solid red; }
+
+.menu {
+  background-color: #ff514f;
+  color: white; }
+
+.pinText {
+  background-color: #ff514f;
+  color: white; }
+  .pinText .btn-violet {
+    background-color: #7100bc;
+    color: white;
+    width: 30%;
+    margin: 10px;
+    box-shadow: 5px 10px 180px #000; }
+  .pinText .btn-dblue {
+    background-color: #00163f;
+    color: white;
+    width: 30%;
+    margin: 10px;
+    box-shadow: 5px 10px 180px #000; }
