@@ -1,26 +1,96 @@
 *{
     border: 1px solid red;
 }
+
 .menu{
-	background-color:#ff514f;
-	color:white;
-}
-.pinText{
-	background-color: #ff514f;
-	color:white;
-	.btn-violet{
-		background-color:#7100bc;
-		color:white;
-		width:30%;
-		margin:10px;
-		box-shadow:5px 10px 180px #000;
+	.Menu_Form{
+	padding:50px;
+		ul{
+			h5{
+
+			}
+			list-style-type:none;
+			a{
+				color:white;
+				&:hover{
+					text-decoration:none;
+					color:black;
+				}
+			}
+		}
 	}
-	.btn-dblue{
-		background-color:#00163f;
-		color:white;
-		width:30%;
-		margin:10px;
-		box-shadow:5px 10px 180px #000;
+	padding:5px;
+	background-color:#e02752;
+	color:white;
+
+	.wrapBrger{
+		div{	
+			width: 35px;
+		    height: 5px;
+		    background-color: white;
+		    margin: 6px 0;
+	    }
 	}
 
 }
+.pinText{
+	background-image: linear-gradient(180deg,#e02752 0%,#f85c88 100%) ;
+	background-color: #ff514f;
+	color:white;
+	.cloud{
+
+		background-image: url("/img/bubbles.png");
+		width:100%;
+		background-repeat: repeat-x;
+		background-position: center bottom;
+		z-index:3;
+		.pineapple{
+			z-index:1;
+		}
+		.btn-violet{
+			background-color:#7100bc;
+			color:white;
+			width:30%;
+			margin:10px;
+			box-shadow:5px 10px 180px #000;
+			&:hover{
+				transform: scale(1.1);
+			}
+		}
+		.btn-dblue{
+			background-color:#00163f;
+			color:white;
+			width:30%;
+			margin:10px;
+			box-shadow:5px 10px 180px #000;
+			&:hover{
+				transform: scale(1.1);
+			}
+		}
+
+	}
+}
+.compsPhotoText{
+	margin:50px 0px 0px 15px;
+	p{
+		color:#b6b8ba;
+	}
+	
+}
+.compsPhoto{
+	margin: 20px 0px 0px 50px;
+	box-shadow: 30px 30px #652a7a;
+}
+.Big_Padding{
+	padding:10px 300px;
+	p{
+		color:#b6b8ba;
+	}
+}
+.purple_strap
+	{
+		height:5px;
+		width:100px;
+		background-color:#652a7a;
+		margin: 6px 0;
+	}

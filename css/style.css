@@ -2,21 +2,69 @@
   border: 1px solid red; }
 
 .menu {
-  background-color: #ff514f;
+  padding: 5px;
+  background-color: #e02752;
   color: white; }
+  .menu .Menu_Form {
+    padding: 50px; }
+    .menu .Menu_Form ul {
+      list-style-type: none; }
+      .menu .Menu_Form ul a {
+        color: white; }
+        .menu .Menu_Form ul a:hover {
+          text-decoration: none;
+          color: black; }
+  .menu .wrapBrger div {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0; }
 
 .pinText {
+  background-image: linear-gradient(180deg, #e02752 0%, #f85c88 100%);
   background-color: #ff514f;
   color: white; }
-  .pinText .btn-violet {
-    background-color: #7100bc;
-    color: white;
-    width: 30%;
-    margin: 10px;
-    box-shadow: 5px 10px 180px #000; }
-  .pinText .btn-dblue {
-    background-color: #00163f;
-    color: white;
-    width: 30%;
-    margin: 10px;
-    box-shadow: 5px 10px 180px #000; }
+  .pinText .cloud {
+    background-image: url("/img/bubbles.png");
+    width: 100%;
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    z-index: 3; }
+    .pinText .cloud .pineapple {
+      z-index: 1; }
+    .pinText .cloud .btn-violet {
+      background-color: #7100bc;
+      color: white;
+      width: 30%;
+      margin: 10px;
+      box-shadow: 5px 10px 180px #000; }
+      .pinText .cloud .btn-violet:hover {
+        transform: scale(1.1); }
+    .pinText .cloud .btn-dblue {
+      background-color: #00163f;
+      color: white;
+      width: 30%;
+      margin: 10px;
+      box-shadow: 5px 10px 180px #000; }
+      .pinText .cloud .btn-dblue:hover {
+        transform: scale(1.1); }
+
+.compsPhotoText {
+  margin: 50px 0px 0px 15px; }
+  .compsPhotoText p {
+    color: #b6b8ba; }
+
+.compsPhoto {
+  margin: 20px 0px 0px 50px;
+  box-shadow: 30px 30px #652a7a; }
+
+.Big_Padding {
+  padding: 10px 300px; }
+  .Big_Padding p {
+    color: #b6b8ba; }
+
+.purple_strap {
+  height: 5px;
+  width: 100px;
+  background-color: #652a7a;
+  margin: 6px 0; }
