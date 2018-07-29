@@ -1,7 +1,9 @@
 *{
     border: 1px solid red;
 }
-
+body{
+	background-color:#efefef;
+}
 .menu{
 	.Menu_Form{
 	padding:50px;
@@ -71,21 +73,16 @@
 	}
 }
 .compsPhotoText{
-	margin:50px 0px 0px 15px;
+	padding: 50px 0px 50px 0px;
 	p{
 		color:#b6b8ba;
 	}
 	
 }
 .compsPhoto{
-	margin: 20px 0px 0px 50px;
+	padding:0px;
+	margin: 50px 0px 50px 0px;
 	box-shadow: 30px 30px #652a7a;
-}
-.Big_Padding{
-	padding:10px 300px;
-	p{
-		color:#b6b8ba;
-	}
 }
 .purple_strap
 	{
@@ -94,3 +91,50 @@
 		background-color:#652a7a;
 		margin: 6px 0;
 	}
+.block{
+	padding: 15px 0px;
+	&__transform{
+		position:relative;
+		box-shadow: 10px 10px 50px #000;
+		&:hover{
+			box-shadow:none;
+			transform: scale(1.1);
+		}
+	}
+}
+.offer{
+	background-color:#fff;
+	padding:0px 6px;
+	margin:15px 0px;
+	&:hover{
+		transform:scale(1.05);
+	}
+	&__text{
+		color:#b6b8ba;
+	}
+	&__title{
+		font-size:18px;
+	}
+}
+.btn-violet{
+	background-color:#7100bc;
+	margin: 20px 0px 70px 0px;
+	&:hover{
+		background-color:#7100bc;
+		transform:scale(1.1);
+	}
+}
+.summation{
+	background-color:#f13863;
+	color:white;
+	&__nonType{
+		list-style-type:none;
+		&-link{
+			color:white;
+			&:hover{
+				color:white;
+				text-decoration:none;
+			}
+		}
+	}
+}
