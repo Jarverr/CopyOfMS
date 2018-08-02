@@ -1,10 +1,23 @@
-*{
-    border: 1px solid red;
-}
+/* 
+Fonts added to wbesite from google fonts // styles type: regular 400, medium 500, semi-bold 600, bold 700
+font-family: 'Playfair Display', serif;
+
+   font-family: 'Pacifico', cursive;
+
+   font-family: 'Poppins', sans-serif;
+*/
+
+
 body{
 	background-color:#efefef;
 }
 .menu{
+	.navbar-dark .navbar-toggler-icon {
+    	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+	}
+	.navbar-dark .navbar-toggler{
+		border:none;
+	}
 	.Menu_Form{
 	padding:50px;
 		ul{
@@ -25,14 +38,14 @@ body{
 	background-color:#e02752;
 	color:white;
 
-	.wrapBrger{
+	/*.wrapBrger{
 		div{	
 			width: 35px;
 		    height: 5px;
 		    background-color: white;
 		    margin: 6px 0;
 	    }
-	}
+	}*/
 
 }
 .pinText{
@@ -40,21 +53,23 @@ body{
 	background-color: #ff514f;
 	color:white;
 	.cloud{
-
+		position:relative;
 		background-image: url("/img/bubbles.png");
 		width:100%;
 		background-repeat: repeat-x;
 		background-position: center bottom;
 		z-index:9;
-
-		.pineapple{
+		height:100px;
+		margin-top:-100px;
+	}
+	.pineapple{
 			z-index:1;
 		}
 		.btn-violet{
 			color:white;
 			width:30%;
 			margin:10px;
-			box-shadow:5px 10px 180px #000;
+			box-shadow:5px 10px 100px #000;
 			&:hover{
 				transform: scale(1.1);
 			}
@@ -69,11 +84,12 @@ body{
 				transform: scale(1.1);
 			}
 		}
-
+	.infoAboutProject__fontStyle{
+	font-family: 'Pacifico', cursive;
 	}
 }
 .compsPhotoText{
-	padding: 50px 0px 50px 0px;
+	padding: 50px 20px 50px 0px;
 	p{
 		color:#b6b8ba;
 	}
@@ -89,7 +105,7 @@ body{
 		height:5px;
 		width:100px;
 		background-color:#652a7a;
-		margin: 6px 0;
+		margin: 10px 0;
 	}
 .block{
 	padding: 15px 0px;
@@ -114,6 +130,12 @@ body{
 	}
 	&__title{
 		font-size:18px;
+		font-family: 'Playfair Display', serif;
+	}
+	&__data{
+		font-family: 'Poppins', sans-serif;
+		color:lightgray;
+		font-size:12px;
 	}
 }
 .btn-violet{
