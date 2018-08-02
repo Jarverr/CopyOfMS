@@ -45,12 +45,12 @@ body{
 		width:100%;
 		background-repeat: repeat-x;
 		background-position: center bottom;
-		z-index:3;
+		z-index:9;
+
 		.pineapple{
 			z-index:1;
 		}
 		.btn-violet{
-			background-color:#7100bc;
 			color:white;
 			width:30%;
 			margin:10px;
@@ -82,7 +82,7 @@ body{
 .compsPhoto{
 	padding:0px;
 	margin: 50px 0px 50px 0px;
-	box-shadow: 30px 30px #652a7a;
+	box-shadow: 30px 30px #652a7a, 5px 5px 25px #000;
 }
 .purple_strap
 	{
